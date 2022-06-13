@@ -10,8 +10,7 @@ interface timelineComponentsTypes {
 }
 
 export default Vue.extend({
-  // eslint-disable-next-line vue/multi-word-component-names
-  name: "Vuenicetimeline", // vue component name
+  name: "vueInteractiveTimeline", // vue component name
   props: {
     timelinePoint: {
       type: Array as PropType<string[]>,

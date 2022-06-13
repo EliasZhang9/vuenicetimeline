@@ -1,18 +1,18 @@
 <script lang="ts">
 import Vue from "vue";
-import Vuenicetimeline from "@/vuenicetimeline.vue";
+import vueInteractiveTimeline from "@/vue-interactive-timeline.vue";
 
 export default Vue.extend({
   name: "ServeDev",
   components: {
-    Vuenicetimeline,
+    vueInteractiveTimeline,
   },
 });
 </script>
 
 <template>
   <div id="app">
-    <vuenicetimeline
+    <vue-interactive-timeline
       :timeline-point="[
         'Sep 2018',
         'May 2019',
@@ -112,6 +112,6 @@ export default Vue.extend({
           </p>
         </li>
       </template>
-    </vuenicetimeline>
+    </vue-interactive-timeline>
   </div>
 </template>

@@ -1,12 +1,12 @@
 {
-  "name": "vuenicetimeline",
-  "version": "1.1.4",
+  "name": "vue-interactive-timeline",
+  "version": "1.1.6",
   "description": "",
 
-  "main": "dist/vuenicetimeline.ssr.js",
-  "browser": "dist/vuenicetimeline.esm.js",
-  "module": "dist/vuenicetimeline.esm.js",
-  "unpkg": "dist/vuenicetimeline.min.js",
+  "main": "dist/vue-interactive-timeline.ssr.js",
+  "browser": "dist/vue-interactive-timeline.esm.js",
+  "module": "dist/vue-interactive-timeline.esm.js",
+  "unpkg": "dist/vue-interactive-timeline.min.js",
   "types": "dist/types/src/entry.esm.d.ts",
 
   "files": [
